@@ -4,7 +4,7 @@
   </PropertyGroup>
   <!-- Common NuGet dependencies for all shared libs -->
   <ItemGroup>
-    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.8" />
     <PackageVersion Include="Microsoft.Extensions.Options" Version="9.0.8" />
     <PackageVersion Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
   </ItemGroup>
