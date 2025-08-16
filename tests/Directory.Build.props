@@ -1,0 +1,25 @@
+<Project>
+  <PropertyGroup>
+    <!-- Multi-target frameworks -->
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+
+    <!-- Build settings -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RootNamespace>SP.Core.Common</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <!-- Common NuGet dependencies for all shared libs -->
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+</Project>

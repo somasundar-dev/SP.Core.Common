@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <!-- Multi-target frameworks -->
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+
+    <!-- NuGet package info -->
+    <Company>Somasundar Projects</Company>
+    <Authors>Somasundar</Authors>
+    <Product>Somasundar Library</Product>
+    <PackageId>$(MSBuildProjectName)</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Description>Common reusable components for .NET Libraries</Description>
+    <PackageTags>dotnet;shared;core;library</PackageTags>
+
+    <!-- Build settings -->
+    <!-- <GenerateDocumentationFile>true</GenerateDocumentationFile> -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RootNamespace>SP.Core.Common</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
+  </ItemGroup>
+</Project>

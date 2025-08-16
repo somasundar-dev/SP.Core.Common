@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>SP.Core.Common</AssemblyName>
+  </PropertyGroup>
+  
+</Project>
